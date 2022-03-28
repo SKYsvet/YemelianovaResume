@@ -134,6 +134,7 @@ body {
   color: black;
   margin-bottom: 20px;
 }
+
 .about-me-name {
   font-style: normal;
   font-weight: bold;
@@ -142,6 +143,7 @@ body {
   color: #000;
   margin: 0 0 25px 0;
 }
+
 .about-me-description {
   width: 400px;
   font-style: normal;
@@ -150,10 +152,11 @@ body {
   line-height: 24px;
   color: #0e0d0d;
 }
+
 /* my education */
 
 .education {
-  margin: 0 0 50px 0;
+  margin: 0 0 0px 0;
 }
 
 .my-education-place {
@@ -187,16 +190,23 @@ body {
 }
 
 /* aside-section */
+
 .aside-section {
   background-color: #85a107;
-  width: 370px;
-  padding: 40px 0;
+  width: 270px;
+  height: 810px;
+  padding: 50px 40px;
+}
+
+.aside-photo {
+  display: block;
+  margin: auto;
 }
 
 .contacts-section,
 .tech-skills-section,
-.Soft-Skills-sectin {
-  margin: 50px 0 0 40px;
+.soft-skills-sectin {
+  margin: 0;
 }
 
 .sidebar-title {
@@ -246,11 +256,11 @@ body {
 
 /* Soft-Skills-section */
 
-.Soft-Skills-list {
+.soft-skills-list {
   padding: 0 0 0 17;
 }
 
-.Soft-Skills-item {
+.soft-skills-item {
   color: #1725e786;
 }
 
